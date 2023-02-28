@@ -19,11 +19,11 @@ function App() {
   return (
     <>
       <Routes
-        location={
-          location.state?.backgroundLocation
-            ? location.state.backgroundLocation
-            : location
-        }
+      // location={
+      //   location.state?.backgroundLocation
+      //     ? location.state.backgroundLocation
+      //     : location
+      // }
       >
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
