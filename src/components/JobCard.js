@@ -42,7 +42,7 @@ function JobCard({ description, skills, id, title }) {
         justifyContent="space-between"
         alignItems="center"
         height="100%"
-        padding="5px"
+        padding="10px"
       >
         <CardContent>
           <Typography

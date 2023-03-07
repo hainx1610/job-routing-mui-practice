@@ -8,6 +8,9 @@ import Stack from "@mui/material/Stack";
 import { styled } from "@mui/material/styles";
 import { useSearchParams } from "react-router-dom";
 import { Typography } from "@mui/material";
+import { red } from "@mui/material/colors";
+
+const color = red[500];
 
 const CentterPagination = styled(Pagination)(({ theme }) => ({
   ul: {
@@ -50,7 +53,7 @@ function Home() {
           <CentterPagination
             sx={{ marginTop: "15px" }}
             count={pagesTotal}
-            color="primary"
+            color="secondary"
             onChange={(event, value) => {
               setPage(value);
             }}
