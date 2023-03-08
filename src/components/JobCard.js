@@ -19,7 +19,7 @@ const CardStyle = styled(Card)(({ theme }) => ({
   width: "100%",
   maxWidth: "350px",
   minWidth: "270px",
-  height: "320px",
+  height: "340px",
   margin: "auto",
   backgroundColor: theme.palette.primary.light,
 }));
